@@ -65,3 +65,16 @@ h1 {
 .chat-form button:hover {
   background-color: #0056b3;
 }
+.rate-limit-info {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.rate-limit-info p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}
