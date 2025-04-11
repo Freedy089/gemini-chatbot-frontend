@@ -17,7 +17,7 @@ function App() {
 
         try {
             // Kirim pesan ke backend
-            const response = await axios.post('http://localhost:3001/api/chat', {
+            const response = await axios.post('https://gemini-chatbot-backend.vercel.app/api/chat', {
                 message: input,
             });
             const botMessage = { sender: 'bot', text: response.data.response };
